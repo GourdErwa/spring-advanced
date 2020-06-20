@@ -25,7 +25,6 @@ include::{snippets}/OrderControllerTests/listOrder/http-request.adoc[]
 include::{snippets}/OrderControllerTests/listOrder/http-response.adoc[]
 
 === OrderController-mapOrder
-operation::index[snippets='request-fields,curl-request,http-response']
 
 .request
 include::{snippets}/OrderControllerTests/mapOrder/http-request.adoc[]
