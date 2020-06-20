@@ -1,0 +1,34 @@
+= Spring REST Docs JUnit 5 Sample
+Li wei;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+
+This is an example output for a service running at http://localhost:8080:
+
+=== HomeController
+
+.request
+include::{snippets}/HomeControllerTests/index/http-request.adoc[]
+
+.response
+include::{snippets}/HomeControllerTests/index/http-response.adoc[]
+
+=== OrderController-listOrder
+
+.request
+include::{snippets}/OrderControllerTests/listOrder/http-request.adoc[]
+
+.response
+include::{snippets}/OrderControllerTests/listOrder/http-response.adoc[]
+
+=== OrderController-mapOrder
+operation::index[snippets='request-fields,curl-request,http-response']
+
+.request
+include::{snippets}/OrderControllerTests/mapOrder/http-request.adoc[]
+
+.response
+include::{snippets}/OrderControllerTests/mapOrder/http-response.adoc[]

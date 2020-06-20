@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-data-elasticsearch
+
+server:
+  port: 8088
